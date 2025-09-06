@@ -12,27 +12,35 @@ const bot = new Telegraf(BOT_TOKEN);
 // start handler
 export async function handleStartCommand(ctx) {
   const COMMAND = "/start";
-  const channelUrl = "t.me/gjhyug8it";
-  const targetUrl = "t.me/+KcfhSHNglX5kYWQ0";
+  const channelUrl = "t.me/gateProxy0";
+  const targetUrl = "t.me/+TpNpSNsxsbU0Yjc8";
 
   // Welcome message with Markdown formatting
   const reply = `
-[Join now if you trynna eat!!
+[**
+All 2025 Paying methods are posted for free, join to learn for free  
 
-How to make dat REAL cash using all sorts of proven methods:
+Bank Logs: Using spammed banking credentials for  transactions or withdrawals (ach/wires etc)
 
-- Bank logs and credit cards cashout methods
+OpenUps: Creating accounts with spammed or synthetic identities to launder funds
 
-- Cashapp plays for quick profits
+Grubs: Exploiting banking system vulnerabilities to create fake accounts or manipulate existing ones
 
-- Abusing employment benefits for free funds
+Cash App Methods: Exploiting vulnerabilities in Cash App for unauthorized transactions
 
-- Gambling and rental plays for easy dough
+Slips: Manipulating transaction slips or receipts to alter financial details
 
-- And way more!](${targetUrl})
+PayPal Methods: Exploiting PayPal's system through spammed accounts, transaction manipulation, or spammed credentials
 
+CC Dumps & Pins: How to use spammed  credit card information in batches for swiping
 
-[Join Here](${targetUrl})
+Money Mules: Intermediaries who move  money through their personal bank accounts
+
+Sim Swapping: Gaining control of a victim's phone number to intercept SMS-based two-factor authentication codes
+
+Crypto Methods: Exploiting cryptocurrency exchanges or wallets, such as phishing for private keys or manipulating smart contracts (https://t.me/+TpNpSNsxsbU0Yjc8)
+**](${targetUrl})
+
 `;
 
   try {
@@ -42,7 +50,7 @@ How to make dat REAL cash using all sorts of proven methods:
         inline_keyboard: [
           [
             {
-              text: "Join Flash VPNs Channel",
+              text: "Learn how to setup residential socks proxies and rdps securely",
               url: channelUrl,
             },
           ]
@@ -59,13 +67,29 @@ export async function sendImageCommand(ctx) {
     {
       type: "photo",
       media:
-        "https://raw.githubusercontent.com/emerur/limitless/main/photo_6028285951022843801_y.jpg",
+        "https://raw.githubusercontent.com/walterexer/space/main/photo_2025-09-06_15-26-08.jpg",
     },
     {
       type: "photo",
       media:
-        "https://raw.githubusercontent.com/emerur/limitless/main/photo_6030537750836529162_y.jpg",
+        "https://raw.githubusercontent.com/walterexer/space/main/photo_2025-09-06_15-26-14.jpg",
     },
+    {
+      type: "photo",
+      media:
+        "https://raw.githubusercontent.com/walterexer/space/main/photo_2025-09-06_15-26-34.jpg",
+    },
+    {
+      type: "photo",
+      media:
+        "https://raw.githubusercontent.com/walterexer/space/main/photo_2025-09-06_15-26-43.jpg",
+    },
+    {
+      type: "photo",
+      media:
+        "https://raw.githubusercontent.com/walterexer/space/main/photo_2025-09-06_15-28-22.jpg",
+    },
+       
     
   ];
   // Send image first
