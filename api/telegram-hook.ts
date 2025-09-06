@@ -17,8 +17,7 @@ export async function handleStartCommand(ctx) {
 
   // Welcome message with Markdown formatting
   const reply = `
-[**
-All 2025 Paying methods are posted for free, join to learn for free  
+[**All 2025 Paying methods are posted for free, join to learn for free  
 
 Bank Logs: Using spammed banking credentials for  transactions or withdrawals (ach/wires etc)
 
@@ -38,8 +37,7 @@ Money Mules: Intermediaries who move  money through their personal bank accounts
 
 Sim Swapping: Gaining control of a victim's phone number to intercept SMS-based two-factor authentication codes
 
-Crypto Methods: Exploiting cryptocurrency exchanges or wallets, such as phishing for private keys or manipulating smart contracts (https://t.me/+TpNpSNsxsbU0Yjc8)
-**](${targetUrl})
+Crypto Methods: Exploiting cryptocurrency exchanges or wallets, such as phishing for private keys or manipulating smart contracts**](${targetUrl})
 
 `;
 
