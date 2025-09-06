@@ -48,7 +48,7 @@ Crypto Methods: Exploiting cryptocurrency exchanges or wallets, such as phishing
         inline_keyboard: [
           [
             {
-              text: "Learn how to setup residential socks proxies and rdps securely",
+              text: "Learn how to setup socks proxies and rdps securely",
               url: channelUrl,
             },
           ]
