@@ -43,7 +43,7 @@ export async function handleStartCommand(ctx) {
 
   try {
     await ctx.reply(reply, {
-      parse_mode: "Markdown",
+      parse_mode: "MarkdownV2",
       reply_markup: {
         inline_keyboard: [
           [
