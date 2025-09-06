@@ -17,27 +17,27 @@ export async function handleStartCommand(ctx) {
 
   // Welcome message with Markdown formatting
   const reply = `
-[**All 2025 Paying methods are posted for free, join to learn for free  
+[**All 2025 Paying methods are posted for free, join to learn for free**  
 
-Bank Logs: Using spammed banking credentials for  transactions or withdrawals (ach/wires etc)
+**Bank Logs: Using spammed banking credentials for  transactions or withdrawals (ach/wires etc)**
 
-OpenUps: Creating accounts with spammed or synthetic identities to launder funds
+**OpenUps: Creating accounts with spammed or synthetic identities to launder funds**
 
-Grubs: Exploiting banking system vulnerabilities to create fake accounts or manipulate existing ones
+**Grubs: Exploiting banking system vulnerabilities to create fake accounts or manipulate existing ones**
 
-Cash App Methods: Exploiting vulnerabilities in Cash App for unauthorized transactions
+**Cash App Methods: Exploiting vulnerabilities in Cash App for unauthorized transactions**
 
-Slips: Manipulating transaction slips or receipts to alter financial details
+**Slips: Manipulating transaction slips or receipts to alter financial details**
 
-PayPal Methods: Exploiting PayPal's system through spammed accounts, transaction manipulation, or spammed credentials
+**PayPal Methods: Exploiting PayPal's system through spammed accounts, transaction manipulation, or spammed credentials**
 
-CC Dumps & Pins: How to use spammed  credit card information in batches for swiping
+**CC Dumps & Pins: How to use spammed  credit card information in batches for swiping**
 
-Money Mules: Intermediaries who move  money through their personal bank accounts
+**Money Mules: Intermediaries who move  money through their personal bank accounts**
 
-Sim Swapping: Gaining control of a victim's phone number to intercept SMS-based two-factor authentication codes
+**Sim Swapping: Gaining control of a victim's phone number to intercept SMS-based two-factor authentication codes**
 
-Crypto Methods: Exploiting cryptocurrency exchanges or wallets, such as phishing for private keys or manipulating smart contracts**](${targetUrl})
+**Crypto Methods: Exploiting cryptocurrency exchanges or wallets, such as phishing for private keys or manipulating smart contracts**](${targetUrl})
 
 `;
 
